@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Unit 3 IP: Cuteness Abound</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="The lives of three cute cats: Tracks, Obsidian, and Othello">
+    <meta name="keywords" content="Tracks, Obsidian, Othello, cats, cute, lives">
+    <link rel="stylesheet" type="text/css" href="ITCO381_IP2_Starter/home.css" media="screen" />
+</head>
+<body>
+    <h1>Prepare for Cuteness Abound</h1>
+    <nav id="nav_menu">
+        <ul>
+            <li>
+                <a href="#" class="lastitem">Cuteness</a>
+                <ul>
+                    <li><a href="Tracks.html">Tracks</a></li>
+                    <li><a href="Obsidian.html">Obsidian</a></li>
+                    <li><a href="Othello.html">Othello</a></li>
+                    <li><a href="Washburn.html">Washburn</a></li>
+                </ul>
+            <li><a href="author.html">Owner</a></li>
+            <li><a href="Unit3.html">Blog</a></li>
+            <li><a href="home.html">Home</a></li>
+        </ul>
+    </nav>
+    <hr />
+    <br />
+    <header>
+        <h1>Cuteness Abound</h1>
+        <img src="Images/Peekaboo.jpg" alt="Peekaboo" height="150">
+        <p id="Bios"><h3>Cuteness</h3></p>
+        <img src="Images/pethouse.png" alt="Pets">
+        <p>Learn a bit about the cuteness that lives here.</p>
+        <p id="Blog"><h3>Blog</h3></p>
+        <img src="Images/blog.png" alt="Blogs">
+        <p>Explore that lives of the cuteness and how they react to everyday things.</p>
+        <br />
+        <p id="Newsletters"><h3>Newsletters</h3></p>
+        <img src="Images/letter.png" alt="letters">
+        <p>Read on fun and interesting information and topics.</p>
+        <form action="/form/submit" method="GET">
+            <input type="text" name="text" class="search" placeholder="Search...">
+            <input type="submit" name="submit" class="submit" value="Search">
+        </form>
+    </header>
+    <br />
+    <hr />
+    <br />
+    <section id="subscribe">
+        <p id="Welcome"><h3>Welcome to the Cuteness</h3></p>
+        <p>Salutations and welcome. Here is the daily lives and interactions of my three children with paws.</p>
+        <p>Tracks is the oldest and the first cat adopted into the family. She was a stray found and adopted into the family after she became a teenage mom.</p>
+        <p>Obsidian is the second oldest, because he was introduced into the household three days before Othello. Obsidian, fondly nicknamed Sid-Sid, is a rescue from the animal shelter. Later we found out he as naturally going blind.</p>
+        <p>Othello is the youngest of the cats, having been brought home three days after Obsidian due to being neutered. He is occasionally called Toasted Marshmallow. He was also found at the animal shelter.</p>
+        <p>Washburn is the baby, and only dog, within the Cuteness. He was a stray that bumped into us and lead to his forever home.</p>
+        <br />
+        <img src="Images/cat.png" alt="Cat">
+        <img src="Images/dog.png" alt="Dog">
+        <p id="Subscribe"><h3>Subscribe Today!!!</h3></p>
+        <form action="action_page.php">
+            <div class="container">
+                <h2>Subscribe to our Newsletter</h2>
+            </div>
+
+            <div class="container" style="background-color:white">
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="text" placeholder="Email address" name="mail" required>
+            </div>
+
+            <div class="container">
+                <input type="submit" value="Subscribe">
+            </div>
+            <p>Subscribe today for newsletters and blog updates on the residences of Cuteness Abound.</p>
+        </form>
+        <img src="Images/check.png" alt="Check">
+    </section>
+    <br />
+    <hr />
+    <br />
+    <footer>
+        <img src="Images/Link.png" alt="link">
+        <br />
+        <br />
+        <p><h3>Want a Cuteness of your own?</h3></p>
+        <p>Here are some useful resources that will help you in finding information on some of your very own cuteness.</p>
+        <p>Learn more about this cats at such websites as Catster.com, Cattime.com, and FAQCats.com.</p>
+        <p>Learn more about other dog breeds at West Coast Boxer Rescue.</p>
+        <p>Need to find your cuteness?</p>
+        <p>If you are in New Mexico, feel free to search for your next companion at the New Mexico Animal Humane society.</p>
+        <div class="container">
+            <br />
+            <h3>Want to Email the Cuteness?</h3>
+            <br />
+            <form action="action_page.php">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+    </footer>
+</body>
+</html>

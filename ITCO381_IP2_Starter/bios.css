@@ -1,0 +1,41 @@
+﻿body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+main {
+    width: 700px;
+}
+.header img { 
+    width: 200px;
+    float: right;
+    margin: 10px;
+}
+h1 {
+    font-size: 42px;
+    color: whitesmoke;
+    border: double;
+    background-image: linear-gradient(to bottom right, orchid, mediumblue, orangered, silver);
+}
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+.p {
+    float: left;
+    margin: 10px;
+    padding: 15px;
+}
+a:any-link {
+    color: green;
+}
+a:hover {
+    color: orange;
+}
+a:focus {
+    color: fuchsia
+}
+footer {
+    justify-content:space-evenly;
+    text-align-last: right;
+    font-size: 80%;
+}

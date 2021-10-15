@@ -1,0 +1,114 @@
+﻿body {
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 85%;
+    width: 950px;
+    padding: 1em 1em 1em 1em;
+    background-image: linear-gradient(to bottom right, lightsteelblue, linen);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+}
+h1 {
+    font-size: 250%;
+}
+h2 {
+    font-size: 175%;
+}
+h1 header {
+    font-size: 175%;
+}
+#nav_list ul {
+    list-style-type: none;
+    margin-left: 1.25em;
+    margin-bottom: 1.25em;
+}
+#nav_list ul li {
+    width: 200px;
+    margin-bottom: .5em;
+    border: 2px solid blue;
+}
+#nav_list ul li a:hover {
+    text-decoration: none;
+    font-size: 175%;
+    font-weight: bold;
+    color: blue;
+}
+figure {
+    width: 300px;
+    float: right;
+    margin: 1em, 1em, 1em, 1em;
+    padding: 1em, 1em, 1em, 1em;
+    border-left: 1px solid black;
+}
+figcaption {
+    font-weight: bold;
+    font-size: 175%;
+    text-align: center;
+}
+#return {
+    clear: both;
+    text-align: center;
+}
+footer {
+    align-content: center;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    align-self: center;
+}
+tfoot {
+    text-align: center;
+    font-weight: bold;
+}
+#TofC {
+    text-align: left;
+    padding: 0 0 0 1em;
+}
+#nav_list ul li a.current {
+    background-color: mediumpurple;
+}
+#nav_list ul {
+    list-style-type: none;
+    padding: 1em 0;
+    text-align: center;
+}
+#nav_menu ul {
+    list-style: none;
+    position: relative;
+}
+#nav_menu ul li {
+    display: inline;
+    padding: 0 1.5em;
+    float: right;
+}
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+#nav_menu ul ul li {
+    float: left;
+}
+#nav_menu ul li:hover > ul {
+    display: block;
+}
+#nav_menu > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#nav_menu ul li a {
+    font-weight: bold;
+    color: darkblue;
+}
+#nav_menu ul li a.current {
+    text-decoration: none;
+}
